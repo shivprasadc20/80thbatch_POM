@@ -26,7 +26,7 @@ test('TC001',async({page})=>
      await CommonFun.openapplication("https://sureshitacademy.in/hrms/login.php");
      await Loginpage.login("sureshit","sureshit");
      await CommonFun.WaitStmt();
-     await verification.verifytitle("HRMS");
+     await verification.verifytitle("SureshIT");
      await Logoutpage.logout();
     });
     
